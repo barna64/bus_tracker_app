@@ -1,0 +1,41 @@
+name: lu_bus_tracker
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  geolocator: ^10.1.0
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+  animated_splash_screen:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: lora
+      fonts:
+        - asset: asset/fonts/Lora-Regular.ttf
+
